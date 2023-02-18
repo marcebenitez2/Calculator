@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculadora {
+  max-width: fit-content;
+}
+
+.btn {
+  width: 15rem;
+  height: 5rem;
+  font-size: xx-large;
+  margin: 4px 2px;
+}
+
+.btn:hover{
+  background-color: #F94A29;
+}
+
+.btn-color {
+  background-color: #820000;
+}
+
+.pantalla {
+  width: 100%;
+  height: 6rem;
+  font-size: 5rem;
+}
+
+.btn-borrar {
+  width: 30.5rem;
+}
+
+.btn-igual {
+  width: 30.5rem;
+}
